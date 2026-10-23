@@ -1,0 +1,6 @@
+# Used locally by `release-plz update` to bump the version and write CHANGELOG.md from
+# Conventional Commits. Publishing happens in CI when a `vX.Y.Z` tag is pushed
+# (.github/workflows/release.yml), not through release-plz.
+[workspace]
+changelog_update = true
+dependencies_update = false
